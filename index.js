@@ -30,7 +30,7 @@ app.post("/payment/create", async (req, res) => {
   } 
 });
 
-app.listen(1234, (err) => {
+app.listen(3422, (err) => {
   if (err) throw err;
-  console.log("server is running on port 1234");
+  console.log("server is running on port 3422");
 });
